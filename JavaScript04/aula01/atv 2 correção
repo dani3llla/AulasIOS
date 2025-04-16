@@ -1,0 +1,19 @@
+//correção
+
+let altura = 1.60
+let peso = 52
+
+console.log(imc = peso / (altura * altura))
+
+
+
+
+
+
+
+
+
+
+
+
+
