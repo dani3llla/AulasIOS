@@ -1,0 +1,17 @@
+
+
+<!-- 
+Exercício de <article> e <section>
+
+    Utilizando a estrutura semântica do HTML vamos criar um site separando nossos produtos por seções.
+    Também devemos implementar artigos que incentivem o cliente a comprar nossos produtos.
+    
+    Utilize as seguintes tags:
+    
+    -<header>, <main>, <footer>
+    
+    - <ul>, <ol> ou <dl>
+    
+    - <img>, <p>, tags <h1> em diante
+    
+    - <article> e <section> -->
