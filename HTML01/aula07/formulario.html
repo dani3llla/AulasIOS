@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+      <center>
+    <h1>Aula 07</h1>
+    <H2>Formulário - Visita TOTVS</H2>
+    <!-- mailto: é uma ação de formulário que envia os dados como e-mail -->
+    <!-- method: define qual local será o tipo utilizado pelo formulário -->
+    <form action="mailto:danialves0503@gmail.com" method="post">
+
+
+        <!-- Label = Rótulo | Da título ou nome a algo -->
+        <!-- For = "nome/id do elemento que está recebendo este rótulo" -->
+        <label for="nomeCompleto">Nome Completo:</label>
+         <!-- required torna obrigatório o preenchimento do campi, ou seja, o cliente não pode terminar o formulário sem preenher o campo.-->
+        <input type="text" required     minlength="3" maxlength="50"
+         id="nomeCompleto" name="nomeCompleto">
+        
+        <br>
+
+        <label for="CPF">CPF:</label>
+        <input type="text" required minlength="11" maxlength="11"
+         id="CPF" name="CPF">
+        <!-- minlength: determina a quantidade mínima de caracteres -->
+        <!-- maxlength: determina a quantidade máxima de caracteres -->
+        <br>
+   
+        
+
+        <label for="RG">RG:</label>
+        <input type="text" required minlength="6" maxlength="27"
+         id="RG" name="RG">
+
+        <br>
+
+
+        <!-- OBS: Se for uma alternativa para uma resposta, o "name" de todos os input's da pergunta deverão ter o mesmo nome. -->
+        <p>De que estado você virá? </p>
+        <input type="radio" name="estado" id="sp">
+        <label for="sp">São Paulo</label>
+        <br>
+        <input type="radio" name="estado" id="mg">
+        <label for="mg">Minas Gerais</label>
+        <br>
+        <input type="radio" name="estado" id="rj">
+        <label for="rj">Rio de Janeiro</label>
+
+        <br>
+
+        <p>Método de transporte</p>
+        <br>
+        <label for="bumba">Ônibus</label>
+        <input type="checkbox" name="transporte" id="bumba" value="Ônibus">
+        <br>
+        <label for="metro">Metrô</label>
+        <input type="checkbox" name="transporte" id="metro" value="Metrô">
+        <br>
+        <label for="trem">Trem</label>
+        <input type="checkbox" name="transporte" id="trem" value="Trem">
+        <br>
+        <label for="jegue">Jegue</label>
+        <input type="checkbox" name="transporte" id="jegue" value="Jegue">
+        <br>
+        <label for="balsa">Balsa</label>
+        <input type="checkbox" name="transporte" id="balsa" value="Balsa">
+        <br>
+
+        <!-- Input é um campo onde o usuário pode enviar vários tipos de Dados -->
+        <!-- Type determina o tipo de dado que será utilizado naquele input  -->
+        <input type="submit" value="Enviar">
+    </form>
+        </center>
+
+</body>
+</html>/
