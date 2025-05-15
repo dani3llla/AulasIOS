@@ -10,44 +10,53 @@
 <body>
 
     <form action="">
+        <h1>Aula 07</h1>
 
-        <h2>Cardápio Pastel & Cia.</h2>
-        <select name="" id="">
-            <option value="Pizza">Pizza</option>
-            <option value="Queijo">Guêjo</option>
-            <option value="Bauru">Bauru</option>
-            <option value="Bauru">Bauru</option>
-            <option value="Nutella">Nutella</option>
-            <option value="Frango-Catupiry">Frango Catupiry</option>
-            <option value="Carne-seca-queijo">Carne seca com guêjo</option>
-            <option value="especial-carne">Especial de Carne</option>
-            <option value="Strogonoff">Strogonoff</option>
-            <option value="Escarola">Escarola</option>
+        <fieldset id="cardapio">
+            <legend>
+                Seleção de Sabores
+            </legend>
+            <h2>Cardápio Pastel & Cia.</h2>
+            <select name="" id="">
+                <option value="Pizza">Pizza</option>
+                <option value="Queijo">Guêjo</option>
+                <option value="Bauru">Bauru</option>
+                <option value="Bauru">Bauru</option>
+                <option value="Nutella">Nutella</option>
+                <option value="Frango-Catupiry">Frango Catupiry</option>
+                <option value="Carne-seca-queijo">Carne seca com guêjo</option>
+                <option value="especial-carne">Especial de Carne</option>
+                <option value="Strogonoff">Strogonoff</option>
+                <option value="Escarola">Escarola</option>
+    
+            </select>  
+        </fieldset>
 
-        </select>
+<fieldset>
+    <legend>
+        Localidades
+    </legend>
+    <p>Estamos expandindo nossas unidades, sugira a sua cidade para que avaliemos a abertura de uma de nossas lojas:</p>
 
-        <p>Estamos expandindo nossas unidades, sugira a sua cidade para que avaliemos a abertura de uma de nossas lojas:
-        </p>
+    <datalist id="municipios">
 
+        <option value="Jaraguá">Fim de Mundo</option>
+        <option value="Mauá">Pior da lista</option>
+        <option value="Santo André">De Boa ainda</option>
+        <option value="São Caetano do Sul">Idosos ricos e acompanhamentos</option>
+        <option value="São Bernardo do Campo">Não tem trem</option>
+        <option value="Guarulhos">Pode ser ruim, pode ser bom, mas talvez seja ruim</option>
+        <option value="Osasco">Não colo o pé</option>
+        <option value="Mariporã">Mato e água</option>
+        <option value="Ubatuba">Praia, Comércio, Comida</option>
+        <option value="Carapicuiba">Assalto, Sequestro, clonagem de cartão e mais nada.</option>
 
-        <datalist id="municipios">
+    </datalist>
 
-            <option value="Jaraguá">Fim de Mundo</option>
-            <option value="Mauá">Pior da lista</option>
-            <option value="Santo André">De Boa ainda</option>
-            <option value="São Caetano do Sul">Idosos ricos e acompanhamentos</option>
-            <option value="São Bernardo do Campo">Não tem trem</option>
-            <option value="Guarulhos">Pode ser ruim, pode ser bom, mas talvez seja ruim</option>
-            <option value="Osasco">Não colo o pé</option>
-            <option value="Mariporã">Mato e água</option>
-            <option value="Ubatuba">Praia, Comércio, Comida</option>
-            <option value="Carapicuiba">Assalto, Sequestro, clonagem de cartão e mais nada.</option>
+    <label for="indicaMunicipio">Insira seu município abaixo:</label>
+    <input type="text" autocomplete="on" list="municipios" name="indicaMunicipio" id="indicaMunicipio">
 
-        </datalist>
-
-        <label for="indicaMunicipio">Insira seu município abaixo:</label>
-        <input type="text" autocomplete="on" list="municipios" name="indicaMunicipio" id="indicaMunicipio">
-
+</fieldset>
         <input type="submit" value="Enviar Sugestão">
     </form>
 
