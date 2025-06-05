@@ -1,0 +1,35 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+#container {
+    background-color: rgb(137, 87, 255);
+    display: flex;
+    justify-content: space-between;
+    /* flex-wrap: wrap; */
+    /* flex wrap faz com que seu container flexivel  */
+}
+
+.quadrado {
+    background-color: rgb(61, 22, 97);
+    width: 250px;
+    height: 250px;
+    border: white solid 5px;
+    font-size: 95px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: rgb(255, 255, 255);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#quatro {
+    flex-grow: 3;
+    /* flex-grow: faz com que o elemento cresça dentro do container de acordo com o númro indicado, Lembrando que todos os itens começam com o padrão 0. Por exemplo: se colocar o valor 2, o elemento ocupará o dobro do espaço */
+    flex-shrink: 3;
+    /* flex shrink: faz com que o elemento diminua mais rapidamente que os outros elementos.  */
+}
