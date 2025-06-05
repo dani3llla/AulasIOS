@@ -11,7 +11,8 @@
     display: flex;
     justify-content: space-between;
     /* flex-wrap: wrap; */
-    /* flex wrap faz com que seu container flexivel  */
+    /* flex wrap faz com que seu container flexível distribua os itens em uma nova linha ou coluna quando a tela estiver muito cheia  */
+
 }
 
 .quadrado {
@@ -32,4 +33,12 @@
     /* flex-grow: faz com que o elemento cresça dentro do container de acordo com o númro indicado, Lembrando que todos os itens começam com o padrão 0. Por exemplo: se colocar o valor 2, o elemento ocupará o dobro do espaço */
     flex-shrink: 3;
     /* flex shrink: faz com que o elemento diminua mais rapidamente que os outros elementos.  */
+}
+
+#seis {
+    flex: 1 1 300px;
+    /* flex é uma abreviação para os 3 outros elementos flex. O primeiro número, corresponde ao flex grow, o segundo número corresponde ao flex shrink, e o terceiro corresponde ao flex basis. */
+
+    /* flex-basis: 500px; */
+    /* flex basis: delimita um tamanho mínimo inicial para os elementos flexíveis */
 }
