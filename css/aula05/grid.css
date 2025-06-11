@@ -1,0 +1,297 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+#container {
+    display: grid;
+    background-color: #ffffff;
+    grid-template-columns: repeat(19, 100px);
+    grid-template-rows: repeat(12, 100px);
+    grid-template-areas:
+        ". . . . preto preto preto preto preto preto amarelo preto1 preto1 preto1 . . . . ."
+        ". . . preto2 azul azul azul azul azul amarelo1 amarelo1 azul1 azul1 azul1 preto3 preto3 . . ."
+       ". . preto4  azul2 azul2 azul2 azul2 azul2 amarelo2 amarelo2 amarelo2 azul3 azul3 azul3 azul3 preto5 preto5 . ."
+       ". . preto6 azul4 azul4 azul4 azul4 azul4 azul4 azul4 azul4 azul4 azul4 azul4 preto7 . . . ."
+       ". preto8 . azul5 azul5 azul5 . . . azul6 azul6 azul6 azul6 azul6 azul6 preto9 . . ."
+       ". preto10 . preto11 azul7 . . preto12 . azul8 azul8 azul8 azul8 azul8 azul8 azul8 preto13 . ."
+       ". preto14 . preto15 . . . preto16 . azul9 azul9 azul9 azul9 azul9 azul9 azul9 azul9 preto17 ."
+       "preto18 preto18 preto18 amarelo3 amarelo3 . . . amarelo4 amarelo4 amarelo4 azul10 azul10 preto19 preto19 preto19 preto19 preto19 preto19"
+       ". preto20 amarelo5 amarelo5 amarelo5 amarelo5 amarelo5 amarelo5 amarelo5 preto21 amarelo6 azul11 azul11 preto22 . . . . ."
+       ". . preto23 amarelo7 amarelo7 amarelo7 amarelo7 preto24 preto24 amarelo8 amarelo8 azul12 azul12 azul12 preto25 . . . ."
+       ". . . preto26 amarelo9 amarelo9 amarelo9 amarelo9 amarelo9 amarelo9 preto27 preto27 preto27 preto27 preto27 preto27 . . ."
+        ". . . . preto28 preto28 preto28 preto28 preto28 preto28 preto28 . . . . . . . ."
+        ;
+
+        /* "branco branco branco preto azul azul azul azul azul amarelo amarelo azul1 azul1 azul1 preto2 preto2 . . ." */
+}
+
+
+/* PRETOS */
+.preto {
+    background-color: black;
+    grid-area: preto;
+}
+
+.preto1 {
+    background-color: black;
+    grid-area: preto1;
+}
+.preto2 {
+    background-color: black;
+    grid-area: preto2;
+}
+
+.preto3 {
+    background-color: black;
+    grid-area: preto3;
+}
+.preto4 {
+    background-color: black;
+    grid-area: preto4;
+}
+.preto5 {
+    background-color: black;
+    grid-area: preto5;
+}
+.preto6 {
+    background-color: black;
+    grid-area: preto6;
+}
+.preto7 {
+    background-color: black;
+    grid-area: preto7;
+}
+.preto8 {
+    background-color: black;
+    grid-area: preto8;
+}
+.preto9 {
+    background-color: black;
+    grid-area: preto9;
+}
+.preto10 {
+    background-color: black;
+    grid-area: preto10;
+}
+.preto11 {
+    background-color: black;
+    grid-area: preto11;
+}
+.preto12 {
+    background-color: black;
+    grid-area: preto12;
+}
+.preto13 {
+    background-color: black;
+    grid-area: preto13;
+}
+.preto14 {
+    background-color: black;
+    grid-area: preto14;
+}
+.preto15 {
+    background-color: black;
+    grid-area: preto15;
+}
+.preto16 {
+    background-color: black;
+    grid-area: preto16;
+}
+.preto17 {
+    background-color: black;
+    grid-area: preto17;
+}
+.preto18 {
+    background-color: black;
+    grid-area: preto18;
+}
+.preto19 {
+    background-color: black;
+    grid-area: preto19;
+}
+.preto20 {
+    background-color: black;
+    grid-area: preto20;
+}
+.preto21 {
+    background-color: black;
+    grid-area: preto21;
+}
+.preto22 {
+    background-color: black;
+    grid-area: preto22;
+}
+.preto23 {
+    background-color: black;
+    grid-area: preto23;
+}
+.preto24 {
+    background-color: black;
+    grid-area: preto24;
+}
+.preto25 {
+    background-color: black;
+    grid-area: preto25;
+}
+.preto26 {
+    background-color: black;
+    grid-area: preto26;
+}
+.preto27 {
+    background-color: black;
+    grid-area: preto27;
+}
+.preto28 {
+    background-color: black;
+    grid-area: preto28;
+}
+.preto29 {
+    background-color: black;
+    grid-area: preto29;
+}
+.preto30 {
+    background-color: black;
+    grid-area: preto30;
+}
+.preto31 {
+    background-color: black;
+    grid-area: preto31;
+}
+
+
+/* BRANCOS  */
+.branco {
+    background-color: white;
+    grid-area: branco;
+}
+
+.branco1 {
+    background-color: white;
+    grid-area: branco1;
+}
+
+
+
+/* AZUIS */
+.azul {
+    background-color: #2f75b5;
+    grid-area: azul;
+}
+
+.azul1 {
+    background-color: #2f75b5;
+    grid-area: azul1;
+}
+.azul2 {
+    background-color: #2f75b5;
+    grid-area: azul2;
+}
+.azul3 {
+    background-color: #2f75b5;
+    grid-area: azul3;
+}
+.azul4 {
+    background-color: #2f75b5;
+    grid-area: azul4;
+}
+.azul5 {
+    background-color: #2f75b5;
+    grid-area: azul5;
+}
+.azul6 {
+    background-color: #2f75b5;
+    grid-area: azul6;
+}
+.azul7 {
+    background-color: #2f75b5;
+    grid-area: azul7;
+}
+.azul8 {
+    background-color: #2f75b5;
+    grid-area: azul8;
+}
+.azul8 {
+    background-color: #2f75b5;
+    grid-area: azul8;
+}
+.azul9 {
+    background-color: #2f75b5;
+    grid-area: azul9;
+}
+.azul10 {
+    background-color: #2f75b5;
+    grid-area: azul10;
+}
+.azul11 {
+    background-color: #2f75b5;
+    grid-area: azul11;
+}
+.azul12 {
+    background-color: #2f75b5;
+    grid-area: azul12;
+}
+
+
+
+/* <!-- AMARELOS --> */
+.amarelo {
+    background-color: #ffd966;
+    grid-area: amarelo;
+}
+.amarelo1 {
+    background-color: #ffd966;
+    grid-area: amarelo1;
+}
+.amarelo2 {
+    background-color: #ffd966;
+    grid-area: amarelo2;
+}
+.amarelo3 {
+    background-color: #ffd966;
+    grid-area: amarelo3;
+}
+.amarelo4 {
+    background-color: #ffd966;
+    grid-area: amarelo4;
+}
+.amarelo5 {
+    background-color: #ffd966;
+    grid-area: amarelo5;
+}
+.amarelo6 {
+    background-color: #ffd966;
+    grid-area: amarelo6;
+}
+.amarelo7 {
+    background-color: #ffd966;
+    grid-area: amarelo7;
+}
+.amarelo8 {
+    background-color: #ffd966;
+    grid-area: amarelo8;
+}
+.amarelo9 {
+    background-color: #ffd966;
+    grid-area: amarelo9;
+}
+.amarelo11 {
+    background-color: #ffd966;
+    grid-area: amarelo11;
+}
+.amarelo12 {
+    background-color: #ffd966;
+    grid-area: amarelo12;
+}
+.amarelo13{
+    background-color: #ffd966;
+    grid-area: amarelo12;
+}
+.amarelo14{
+    background-color: #ffd966;
+    grid-area: amarelo12;
+}
