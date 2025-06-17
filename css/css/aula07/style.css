@@ -1,0 +1,41 @@
+@charset "UTF-8";
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+
+
+img {
+    width: 300px;
+}
+
+.container {
+    display: flex;
+    margin: 0 auto;
+    align-items: center;
+    width: 80vw;
+    background-color: rgb(240, 197, 181);
+}
+
+@media screen and  (max-width: 375px) {
+
+    .container{
+    
+    flex-direction: column;
+    width: 100vw;
+    align-items: center;
+}
+
+.fotohamburguer {
+    margin: 10px;
+}
+
+p{
+    margin: 10px;
+}
+
+}
